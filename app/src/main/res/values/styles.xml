@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+        <item name="backgroundTint">@color/btn_background</item>
+        <item name="fontFamily">@font/dle_digital_font</item>
+        <item name="cornerRadius">@dimen/btn_corner_radius</item>
+    </style>
+
+    <style name="CalcButton.Action">
+        <item name="backgroundTint">#FF5722</item>
+    </style>
+
+    <style name="CalcButtonNight" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_marginStart">@dimen/small_margin</item>
+        <item name="android:layout_marginEnd">@dimen/small_margin</item>
+        <item name="backgroundTint">@color/purple_700</item>
+        <item name="fontFamily">@font/dle_digital_font</item>
+        <item name="cornerRadius">@dimen/btn_corner_radius</item>
+    </style>
+
+    <style name="CalcButton.ActionNight">
+        <item name="backgroundTint">#DF2A67</item>
+    </style>
+
+
+    <dimen name="btn_corner_radius">16dp</dimen>
+</resources>
